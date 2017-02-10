@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html ng-app="longs">
+<head>
+	<title>Long's Heating, Air Conditioning & Refigeration</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href='http://fonts.googleapis.com/css?family=Lato|Cormorant Unicase|Raleway|Armata|Cherry Swash|Pontana+Sans|Maven Pro|Pacifico|Montserrat|AbeeZee|Open+Sans:300|Quicksand|Antic Slab|Didact Gothic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/css/home.css">
+	<!-- <link rel="stylesheet" type="text/css" href="stylesheets/css/home.css"> -->
+</head>
+
+<body>
+	<header>
+		<div class="logo-container">
+			<div class="logo"></div>
+			<h1>Long's <span style="color: #458592;">Air</span> <span style="color: #ff0061;">Service</span></h1>
+		</div>
+		
+		<div class="navigation">
+			<div><p>Home</p></div>
+			<div><p>Services</p></div>
+			<div><p>About</p></div>
+		</div>
+
+	</header>
+
+	<ul class="social-bar">
+		<li><div class=" social social-facebook"><i class="fa fa-facebook"></i></div></li>
+		<li><div class=" social social-twitter"><i class="fa fa-twitter"></i></div></li>
+		<li><div class=" social social-tumblr"><i class="fa fa-tumblr"></i></div></li>
+		<li><div class=" social social-googleplus"><i class="fa fa-google-plus"></i></div></li>
+	</ul>
+
+	<ui-view></ui-view>
+
+	<div class="contact">
+		<div class="matte-contact">
+			<div class="contact-welcome">
+				<h1>If you have a comment, question, or proposition, drop us a line!</h1>
+			</div>
+			<div class="contact-secondBlock">
+				<div class="contact-form">
+					<h2>Let's connect.</h2>
+					<form>
+						<input placeholder="Name." required /><br>
+						<input placeholder="Phone Number." required /><br>
+						<textarea placeholder="Message." rows="10" required></textarea><br>
+						<button type="submit">Send Message</button>
+					</form>
+				</div>
+				<div class="contact-info">
+					<div>
+						<h3><span>Address:&nbsp;&nbsp;&nbsp;</span> 
+						Longs Air Service Inc. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						224 West 510 South <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						American Fork UT 84003 US
+						</h3>
+						<h3><span>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> +1.801.467.1778</h3>
+						<h3><span>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> longsairservice@comcast.net</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="copyright">
+			<p><span>Longs Air Service Incorporated</span>&#169; All Rights Reserved.</p>
+		</div>
+		<div class="social-connect">
+			<ul>
+				<li><div class=" social-footer social-facebook"><i class="fa fa-facebook"></i></div></li>
+				<li><div class=" social-footer social-twitter"><i class="fa fa-twitter"></i></div></li>
+				<li><div class=" social-footer social-tumblr"><i class="fa fa-tumblr"></i></div></li>
+				<li><div class=" social-footer social-googleplus"><i class="fa fa-google-plus"></i></div></li>
+			<ul>
+		</div>
+
+	</footer>
+
+	<!-- Angular -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-route.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-animate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-resource.js"></script>
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.0/jquery-migrate.js"></script> -->
+	<!-- Modules -->
+	<script src="/app/app.module.js"></script>
+	<script src="/app/js/typed.js"></script>
+	<!-- Routes -->
+	<script src="/app/app.routes.js"></script>
+	<!-- Controllers -->
+	<script src="/app/home/homeCtrl.js"></script>
+	<!-- Services -->
+	<!-- Directives -->
+	<script src="/app/js/directives/typewriter.js"></script>
+	<!-- Factories -->
+
+	<!-- Custom Inline Stuff -->
+	<script type="text/javascript" language="javascript"></script>
+
+</body>
+</html>

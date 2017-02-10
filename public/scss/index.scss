@@ -1,0 +1,252 @@
+$primaryBlue: #458592;
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+header {
+	height: 10%;
+	width: 100%;
+	background: linear-gradient(#222, transparent);
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	.logo-container {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		width: 25%;
+		margin: 0;
+		.logo {
+			height: 75%;
+			width: 25%;
+			background: url("../app/images/longslogo.svg") no-repeat center;
+			background-size: contain;
+		}
+		h1{
+			font-family: 'Raleway', Arial, sans-serif;
+			font-size: 20px;
+			text-transform: uppercase;
+			color: #ffffff;
+			margin: 0;
+		}
+	}
+	.navigation {
+		height: 100%;
+		width: 40%;
+		p {
+			color: #fff;
+		}
+	}
+}
+
+.social-bar {
+	position: fixed;
+	top: 30%;
+	left: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li {
+		margin: 0;
+		padding: 0;
+	}
+	i {
+		color: #ffffff;
+	}
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	font-size: 20px;
+}
+.social-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	font-size: 20px;
+}
+.social-facebook {
+	background: #3a5795;
+}
+.social-twitter {
+	background: #10dffd;
+}
+.social-tumblr {
+	background: #35465c;
+}
+.social-googleplus {
+	background: #ea4335;
+}
+.social:hover {
+	width: 60px;
+	transition: all .3s;
+}
+.social-footer:hover {
+	background: darken(#bada55, 10%);
+	cursor: pointer;
+}
+
+.footer {
+	height: 150px;
+	width: 100%;
+	background: darken(#222, 3%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid #444;
+	.copyright {
+		height: 100%;
+		width: 50%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		p {
+			font-family: 'Raleway', Arial, sans-serif;
+			color: #ffffff;
+		}
+		span {
+			font-weight: bold;
+		}
+	}
+	.social-connect {
+		height: 100%;
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		ul {
+			list-style: none;
+			display: flex;
+			li {
+				color: #ffffff;
+			}
+		}
+	}
+}
+
+
+.contact {
+	height: 900px;
+	width: 100%;
+	background: url("../app/images/darkblue.jpg") no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	h2 {
+		font-family: 'Didact Gothic', Arial, sans-serif;
+		font-size: 45px;
+		color: #eeeeee;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.contact-welcome {
+		width: 100%;
+		text-align: center;
+		padding-top: 75px;
+		padding-bottom: 50px;
+		h1 {
+			font-family: 'Raleway', Arial, sans-serif;
+			font-size: 30px;
+			font-weight: 100;
+			color: darken($primaryBlue, 10%);
+			margin: 0;
+		}
+	}
+	.contact-secondBlock {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.contact-form {
+			height: 60%;
+			width: 40%;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			form {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				input {
+					font-family: 'Quicksand', Arial, sans-serif;
+					font-size: 18px;
+					color: #222;
+					width: 400px;
+					padding: 10px;
+					border: 3px solid $primaryBlue;
+					border-radius: 5px;
+				}
+				textarea {
+					font-family: 'Quicksand', Arial, sans-serif;
+					font-size: 18px;
+					color: #222;
+					width: 400px;
+					padding: 10px;
+					border: 3px solid $primaryBlue;
+					border-radius: 5px;
+				}
+				button {
+					font-family: 'Quicksand', Arial, sans-serif;
+					font-size: 14px;
+					font-weight: bold;
+					padding: 20px;
+					color: #ffffff;
+					background: lighten($primaryBlue, 25%);
+					border: 3px solid $primaryBlue;
+					border-radius: 5px;
+					align-self: center;
+				}
+			}
+		}
+		.contact-info {
+			height: 60%;
+			width: 40%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			div {
+				width: 100%;
+				span {
+					text-transform: uppercase;
+					font-size: 25px;
+					color: darken($primaryBlue, 5%);
+				}
+				h3 {
+					font-family: 'Didact Gothic', Arial, sans-serif;
+					font-size: 25px;
+					font-weight: 100;
+					color: #ffffff;
+					margin: 0;
+					margin-bottom: 15px;
+
+				}
+			}
+		}
+	}
+}
+
+.matte-banner {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, .5);
+}
+
+.matte-contact {
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, .5);
+}

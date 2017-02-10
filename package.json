@@ -1,0 +1,47 @@
+{
+  "name": "longs",
+  "version": "1.0.0",
+  "description": "Longs Heating, Air Conditioning, & Refrigeration",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Princeton Collins",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jquery.localscroll": "^1.4.0",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.6.3",
+    "morgan": "^1.7.0",
+    "nodemailer": "^2.6.4",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "sendgrid": "^4.7.0",
+    "sendgrid-nodejs": "0.1.0-2",
+    "serve-favicon": "^2.3.0",
+    "smtpapi": "^1.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.2",
+    "gulp-compass": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-prettyerror": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1"
+  }
+}
