@@ -63,7 +63,7 @@ $primaryBlue: #458592;
     100% { opacity:1; }
 }
 
-.about {
+#about {
 	width: 100%;
 	background: #222;
 	display: flex;
@@ -71,10 +71,9 @@ $primaryBlue: #458592;
 	justify-content: center;
 	flex-direction: column;
 	margin: 0;
-	padding-top: 100px;
 	padding-bottom: 100px;
 	h2 {
-		font-family: 'Didact Gothic', Arial, sans-serif;
+		font-family: 'Raleway', Arial, sans-serif;
 		font-size: 45px;
 		color: #eee;
 		text-align: center;
@@ -96,17 +95,37 @@ $primaryBlue: #458592;
 				display: flex;
 				justify-content: center;
 				flex-direction: column;
+				align-items: center;
 				h2 {
-					font-family: 'Didact Gothic', Arial, sans-serif;
+					font-family: 'Raleway', Arial, sans-serif;
 					font-size: 30px;
-					color: #eee;
+					color: $primaryBlue;
 					margin: 0;
 					padding-bottom: 15px;
 				}
-				i {
-					color: $primaryBlue;
-					margin: 0 auto;
-					padding-bottom: 30px;
+				.airConditioningGlyph {
+					height: 175px;
+					width: 175px;
+					background: url("../app/images/aircondition.svg") no-repeat center;
+					background-size: contain;
+				}
+				.heatingGlyph {
+					height: 175px;
+					width: 175px;
+					background: url("../app/images/heating.svg") no-repeat center;
+					background-size: contain;
+				}
+				.commercialGlyph {
+					height: 175px;
+					width: 175px;
+					background: url("../app/images/commercial.svg") no-repeat center;
+					background-size: contain;
+				}
+				.airQualityGlyph {
+					height: 175px;
+					width: 175px;
+					background: url("../app/images/airunit.svg") no-repeat center;
+					background-size: contain;
 				}
 				p {
 					font-family: 'Quicksand', Arial, sans-serif;
@@ -121,7 +140,7 @@ $primaryBlue: #458592;
 	}
 }
 
-.experience {
+#experience {
 	width: 100%;
 	background: #222;
 	display: flex;
@@ -144,7 +163,7 @@ $primaryBlue: #458592;
 		justify-content: center;
 		align-items: center;
 		h2 {
-			font-family: 'Didact Gothic', Arial, sans-serif;
+			font-family: 'Raleway', Arial, sans-serif;
 			font-size: 30px;
 			color: #eee;
 			text-align: center;
@@ -152,7 +171,7 @@ $primaryBlue: #458592;
 			padding-right: 25px;
 		}
 		span {
-			font-family: 'Didact Gothic', Arial, sans-serif;
+			font-family: 'Raleway', Arial, sans-serif;
 			font-size: 30px;
 			color: $primaryBlue;
 		}

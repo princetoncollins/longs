@@ -61,7 +61,7 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
-.about {
+#about {
   width: 100%;
   background: #222;
   display: flex;
@@ -69,41 +69,57 @@
   justify-content: center;
   flex-direction: column;
   margin: 0;
-  padding-top: 100px;
   padding-bottom: 100px; }
-  .about h2 {
-    font-family: 'Didact Gothic', Arial, sans-serif;
+  #about h2 {
+    font-family: 'Raleway', Arial, sans-serif;
     font-size: 45px;
     color: #eee;
     text-align: center;
     padding-bottom: 50px;
     margin: 0; }
-  .about ul {
+  #about ul {
     list-style: none;
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0; }
-    .about ul li {
+    #about ul li {
       width: 20%;
       padding: 20px; }
-      .about ul li .services {
+      #about ul li .services {
         width: 100%;
         margin: 0;
         display: flex;
         justify-content: center;
-        flex-direction: column; }
-        .about ul li .services h2 {
-          font-family: 'Didact Gothic', Arial, sans-serif;
+        flex-direction: column;
+        align-items: center; }
+        #about ul li .services h2 {
+          font-family: 'Raleway', Arial, sans-serif;
           font-size: 30px;
-          color: #eee;
+          color: #458592;
           margin: 0;
           padding-bottom: 15px; }
-        .about ul li .services i {
-          color: #458592;
-          margin: 0 auto;
-          padding-bottom: 30px; }
-        .about ul li .services p {
+        #about ul li .services .airConditioningGlyph {
+          height: 175px;
+          width: 175px;
+          background: url("../app/images/aircondition.svg") no-repeat center;
+          background-size: contain; }
+        #about ul li .services .heatingGlyph {
+          height: 175px;
+          width: 175px;
+          background: url("../app/images/heating.svg") no-repeat center;
+          background-size: contain; }
+        #about ul li .services .commercialGlyph {
+          height: 175px;
+          width: 175px;
+          background: url("../app/images/commercial.svg") no-repeat center;
+          background-size: contain; }
+        #about ul li .services .airQualityGlyph {
+          height: 175px;
+          width: 175px;
+          background: url("../app/images/airunit.svg") no-repeat center;
+          background-size: contain; }
+        #about ul li .services p {
           font-family: 'Quicksand', Arial, sans-serif;
           font-size: 18px;
           color: white;
@@ -111,7 +127,7 @@
           text-align: center;
           line-height: 1.5; }
 
-.experience {
+#experience {
   width: 100%;
   background: #222;
   display: flex;
@@ -121,29 +137,29 @@
   padding-top: 100px;
   padding-bottom: 100px;
   box-shadow: -3px -3px 15px #222; }
-  .experience .median {
+  #experience .median {
     height: 100px;
     width: 3px;
     border-radius: 50px;
     background-color: #458592; }
-  .experience div {
+  #experience div {
     height: 100%;
     width: 25%;
     display: flex;
     justify-content: center;
     align-items: center; }
-    .experience div h2 {
-      font-family: 'Didact Gothic', Arial, sans-serif;
+    #experience div h2 {
+      font-family: 'Raleway', Arial, sans-serif;
       font-size: 30px;
       color: #eee;
       text-align: center;
       margin: 0;
       padding-right: 25px; }
-    .experience div span {
-      font-family: 'Didact Gothic', Arial, sans-serif;
+    #experience div span {
+      font-family: 'Raleway', Arial, sans-serif;
       font-size: 30px;
       color: #458592; }
-    .experience div p {
+    #experience div p {
       font-family: 'Quicksand', Arial, sans-serif;
       font-size: 18px;
       line-height: 1.5;

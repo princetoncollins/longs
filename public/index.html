@@ -3,7 +3,7 @@
 <head>
 	<title>Long's Heating, Air Conditioning & Refigeration</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link href='http://fonts.googleapis.com/css?family=Lato|Cormorant Unicase|Raleway|Armata|Cherry Swash|Pontana+Sans|Maven Pro|Pacifico|Montserrat|AbeeZee|Open+Sans:300|Quicksand|Antic Slab|Didact Gothic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato|Cormorant Unicase|Raleway:200|Armata|Cherry Swash|Pontana+Sans|Maven Pro|Pacifico|Montserrat|AbeeZee|Open+Sans:300|Quicksand|Antic Slab|Didact Gothic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/index.css">
 	<link rel="stylesheet" type="text/css" href="/css/home.css">
@@ -18,9 +18,9 @@
 		</div>
 		
 		<div class="navigation">
-			<div><p>Home</p></div>
-			<div><p>Services</p></div>
-			<div><p>About</p></div>
+			<div class="navButton" scroll-on-click href="#banner"><p>Home</p></div><
+			<div class="navButton" scroll-on-click href="#experience"><p>About</p></div>
+			<div class="navButton" scroll-on-click href="#contact"><p>Contact</p></div>
 		</div>
 
 	</header>
@@ -34,7 +34,7 @@
 
 	<ui-view></ui-view>
 
-	<div class="contact">
+	<div id="contact">
 		<div class="matte-contact">
 			<div class="contact-welcome">
 				<h1>If you have a comment, question, or proposition, drop us a line!</h1>
@@ -94,14 +94,12 @@
 	<!-- Routes -->
 	<script src="/app/app.routes.js"></script>
 	<!-- Controllers -->
-	<script src="/app/home/homeCtrl.js"></script>
+	<script src="/app/js/controllers/MainCtrl.js"></script>
 	<!-- Services -->
 	<!-- Directives -->
 	<script src="/app/js/directives/typewriter.js"></script>
+	<script src="/app/js/directives/scrollOnClick.js"></script>
 	<!-- Factories -->
-
-	<!-- Custom Inline Stuff -->
-	<script type="text/javascript" language="javascript"></script>
 
 </body>
 </html>

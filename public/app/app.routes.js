@@ -8,7 +8,7 @@ angular.module('longs')
   	    	.state('/', {
   	    		url: '/',
   	    		templateUrl: 'app/home/home.html',
-  	    		controller: 'HomeController'
+  	    		controller: 'MainController'
   	    	})
 
   });
