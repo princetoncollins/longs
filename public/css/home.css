@@ -2,38 +2,61 @@
   height: 100%;
   width: 100%;
   margin: 0;
-  background: url("../app/images/crane.jpg") no-repeat fixed;
-  background-size: 100% 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  #banner .welcome {
+  background: url("../app/images/meeting.jpeg") no-repeat center;
+  background-size: 100% 100%; }
+  #banner .matte-banner {
     height: 100%;
     width: 100%;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
-    align-items: center;
-    justify-content: center; }
-    #banner .welcome .box-one {
+    justify-content: center;
+    align-items: center; }
+    #banner .matte-banner .welcome {
+      height: 100%;
+      width: 40%;
       display: flex;
-      justify-content: flex-end;
-      width: 50%;
-      font-family: 'Raleway', Arial, sans-serif;
-      font-size: 50px;
-      color: #ffffff;
-      margin: 0; }
-    #banner .welcome .box-two {
-      display: flex;
+      background: #157faf;
+      justify-content: center;
       align-items: center;
-      width: 50%; }
-      #banner .welcome .box-two .typewriter {
+      border-right: 1px solid #ddd; }
+      #banner .matte-banner .welcome .box-one {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
         font-family: 'Raleway', Arial, sans-serif;
-        font-size: 50px;
-        font-weight: bold;
+        font-size: 30px;
         color: #ffffff;
         margin: 0; }
+      #banner .matte-banner .welcome .box-two {
+        display: flex;
+        width: 50%;
+        margin: 0; }
+        #banner .matte-banner .welcome .box-two .typewriter {
+          font-family: 'Raleway', Arial, sans-serif;
+          font-size: 30px;
+          font-weight: bold;
+          color: #ddd;
+          margin: 0; }
+    #banner .matte-banner .welcomeTwo {
+      height: 100%;
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+    #banner .matte-banner div {
+      width: 60%;
+      border: 3px solid #157faf; }
+      #banner .matte-banner div h2 {
+        padding-left: 30px;
+        width: 90%;
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+        color: #fff; }
 
 .typed-cursor {
-  font-size: 50px;
+  font-size: 30px;
   color: #ffffff;
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
@@ -72,7 +95,7 @@
   padding-bottom: 100px; }
   #about h2 {
     font-family: 'Raleway', Arial, sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     color: #eee;
     text-align: center;
     padding-bottom: 50px;
@@ -95,8 +118,8 @@
         align-items: center; }
         #about ul li .services h2 {
           font-family: 'Raleway', Arial, sans-serif;
-          font-size: 30px;
-          color: #458592;
+          font-size: 28px;
+          color: #157faf;
           margin: 0;
           padding-bottom: 15px; }
         #about ul li .services .airConditioningGlyph {
@@ -121,7 +144,7 @@
           background-size: contain; }
         #about ul li .services p {
           font-family: 'Quicksand', Arial, sans-serif;
-          font-size: 18px;
+          font-size: 15px;
           color: white;
           margin: 0;
           text-align: center;
@@ -141,7 +164,7 @@
     height: 100px;
     width: 3px;
     border-radius: 50px;
-    background-color: #458592; }
+    background-color: #157faf; }
   #experience div {
     height: 100%;
     width: 25%;
@@ -150,7 +173,7 @@
     align-items: center; }
     #experience div h2 {
       font-family: 'Raleway', Arial, sans-serif;
-      font-size: 30px;
+      font-size: 25px;
       color: #eee;
       text-align: center;
       margin: 0;
@@ -158,10 +181,10 @@
     #experience div span {
       font-family: 'Raleway', Arial, sans-serif;
       font-size: 30px;
-      color: #458592; }
+      color: #157faf; }
     #experience div p {
       font-family: 'Quicksand', Arial, sans-serif;
-      font-size: 18px;
+      font-size: 15px;
       line-height: 1.5;
       color: #eee;
       text-align: center;

@@ -1,46 +1,76 @@
 $primaryBlue: #458592;
+$brightBlue: #157faf;
 
 #banner {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background: url('../app/images/crane.jpg') no-repeat fixed;
+	background: url('../app/images/meeting.jpeg') no-repeat center;
 	background-size: 100% 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	.welcome {
+	.matte-banner {
 		height: 100%;
 		width: 100%;
+		margin: 0;
+		background: rgba(0, 0, 0, .5);
 		display: flex;
-		align-items: center;
 		justify-content: center;
-		.box-one {
+		align-items: center;
+		.welcome {
+			height: 100%;
+			width: 40%;
 			display: flex;
-			justify-content: flex-end;
-			width: 50%;
-			font-family: 'Raleway', Arial, sans-serif;
-			font-size: 50px;
-			color: #ffffff;
-			margin: 0;
-		}
-		.box-two {
-			display: flex;
+			background: $brightBlue;
+			justify-content: center;
 			align-items: center;
-			width: 50%;
-			.typewriter {
+			border-right: 1px solid #ddd;
+			.box-one {
+				display: flex;
+				justify-content: flex-end;
+				width: 50%;
 				font-family: 'Raleway', Arial, sans-serif;
-				font-size: 50px;
-				font-weight: bold;
+				font-size: 30px;
 				color: #ffffff;
 				margin: 0;
+			}
+			.box-two {
+				display: flex;
+				width: 50%;
+				margin: 0;
+				.typewriter {
+					font-family: 'Raleway', Arial, sans-serif;
+					font-size: 30px;
+					font-weight: bold;
+					color: #ddd;
+					margin: 0;
+				}
+			}
+		}
+		.welcomeTwo {
+			height: 100%;
+			width: 60%;
+			// background: url('../app/images/construction-worker-blueprints.jpg') no-repeat center;
+			// background-size: cover;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		div {
+			width: 60%;
+			border: 3px solid $brightBlue;
+			h2 {
+				padding-left: 30px;
+				width: 90%;
+				font-family: 'Raleway', sans-serif;
+				font-size: 35px;
+				color: #fff;
 			}
 		}
 	}
 }
 
 .typed-cursor{
-	font-size: 50px;
+	font-size: 30px;
 	color: #ffffff;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -74,7 +104,7 @@ $primaryBlue: #458592;
 	padding-bottom: 100px;
 	h2 {
 		font-family: 'Raleway', Arial, sans-serif;
-		font-size: 45px;
+		font-size: 35px;
 		color: #eee;
 		text-align: center;
 		padding-bottom: 50px;
@@ -98,8 +128,8 @@ $primaryBlue: #458592;
 				align-items: center;
 				h2 {
 					font-family: 'Raleway', Arial, sans-serif;
-					font-size: 30px;
-					color: $primaryBlue;
+					font-size: 28px;
+					color: $brightBlue;
 					margin: 0;
 					padding-bottom: 15px;
 				}
@@ -129,7 +159,7 @@ $primaryBlue: #458592;
 				}
 				p {
 					font-family: 'Quicksand', Arial, sans-serif;
-					font-size: 18px;
+					font-size: 15px;
 					color: white;
 					margin: 0;
 					text-align: center;
@@ -154,7 +184,7 @@ $primaryBlue: #458592;
 		height: 100px;
 		width: 3px;
 		border-radius: 50px;
-		background-color: $primaryBlue;
+		background-color: $brightBlue;
 	}
 	div {
 		height: 100%;
@@ -164,7 +194,7 @@ $primaryBlue: #458592;
 		align-items: center;
 		h2 {
 			font-family: 'Raleway', Arial, sans-serif;
-			font-size: 30px;
+			font-size: 25px;
 			color: #eee;
 			text-align: center;
 			margin: 0;
@@ -173,11 +203,11 @@ $primaryBlue: #458592;
 		span {
 			font-family: 'Raleway', Arial, sans-serif;
 			font-size: 30px;
-			color: $primaryBlue;
+			color: $brightBlue;
 		}
 		p {
 			font-family: 'Quicksand', Arial, sans-serif;
-			font-size: 18px;
+			font-size: 15px;
 			line-height: 1.5;
 			color: #eee;
 			text-align: center;

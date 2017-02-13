@@ -37,7 +37,8 @@ header {
     header .navigation div {
       padding: 5%; }
     header .navigation p {
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Quicksand', sans-serif;
+      text-transform: uppercase;
       font-size: 20px;
       font-weight: bold;
       color: #fff; }
@@ -46,7 +47,7 @@ header {
   cursor: pointer; }
 
 .navButton:hover p {
-  color: #157ffb; }
+  color: #458592; }
 
 .social-bar {
   position: fixed;
@@ -206,7 +207,7 @@ header {
         #contact .contact-secondBlock .contact-info div span {
           text-transform: uppercase;
           font-size: 25px;
-          color: #3d7581; }
+          color: #147caa; }
         #contact .contact-secondBlock .contact-info div h3 {
           font-family: 'Didact Gothic', Arial, sans-serif;
           font-size: 25px;
@@ -214,14 +215,6 @@ header {
           color: #ffffff;
           margin: 0;
           margin-bottom: 15px; }
-
-.matte-banner {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.5); }
 
 .matte-contact {
   height: 100%;

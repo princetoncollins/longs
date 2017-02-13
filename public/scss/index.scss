@@ -1,4 +1,5 @@
 $primaryBlue: #458592;
+$brightBlue: #157faf;
 
 html, body {
 	height: 100%;
@@ -44,7 +45,8 @@ header {
 			padding: 5%;
 		}
 		p {
-			font-family: 'Raleway', sans-serif;
+			font-family: 'Quicksand', sans-serif;
+			text-transform: uppercase;
 			font-size: 20px;
 			font-weight: bold;
 			color: #fff;
@@ -57,7 +59,7 @@ header {
 }
 .navButton:hover {
 	p {
-		color: #157ffb;		
+		color: $primaryBlue;		
 	}
 }
 
@@ -239,7 +241,7 @@ header {
 				span {
 					text-transform: uppercase;
 					font-size: 25px;
-					color: darken($primaryBlue, 5%);
+					color: darken($brightBlue, 1%);
 				}
 				h3 {
 					font-family: 'Didact Gothic', Arial, sans-serif;
@@ -253,15 +255,6 @@ header {
 			}
 		}
 	}
-}
-
-.matte-banner {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: rgba(0, 0, 0, .5);
 }
 
 .matte-contact {
