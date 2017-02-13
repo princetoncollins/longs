@@ -28,7 +28,7 @@ $brightBlue: #157faf;
 				justify-content: flex-end;
 				width: 50%;
 				font-family: 'Raleway', Arial, sans-serif;
-				font-size: 30px;
+				font-size: 1.8vw;
 				color: #ffffff;
 				margin: 0;
 			}
@@ -38,7 +38,7 @@ $brightBlue: #157faf;
 				margin: 0;
 				.typewriter {
 					font-family: 'Raleway', Arial, sans-serif;
-					font-size: 30px;
+					font-size: 1.8vw;
 					font-weight: bold;
 					color: #ddd;
 					margin: 0;
@@ -54,23 +54,32 @@ $brightBlue: #157faf;
 			justify-content: center;
 			align-items: center;
 			flex-direction: column;
-		}
-		div {
-			width: 60%;
-			border: 3px solid $brightBlue;
-			h2 {
-				padding-left: 30px;
-				width: 90%;
-				font-family: 'Raleway', sans-serif;
-				font-size: 35px;
-				color: #fff;
+			div {
+				width: 45vw;
+				h2 {
+					margin: 0;
+					padding: 20px;
+					width: 90%;
+					font-family: 'Raleway', sans-serif;
+					font-size: 1.7vw;
+					color: #ddd;
+					border: 3px solid $brightBlue;
+				}
+				h4 {
+					font-family: 'Raleway', sans-serif;
+					font-size: 2vw;
+					color: #ddd;
+					span {
+						color: lighten($brightBlue, 20%);
+					}
+				}
 			}
 		}
 	}
 }
 
 .typed-cursor{
-	font-size: 30px;
+	font-size: 1.8vw;
 	color: #ffffff;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;

@@ -18,7 +18,7 @@ var http = require('http');
 var favicon = require('serve-favicon');
 var dotenv = require('dotenv');
 var sendgrid = require('sendgrid')(process.env.SENDGRID_USER, process.env.SENDGRID_PASSWORD);
-dotenv.load();
+// dotenv.load();
 
 var LocalStrategy = require('passport-local').Strategy;
 
