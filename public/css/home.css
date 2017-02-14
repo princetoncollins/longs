@@ -2,7 +2,7 @@
   height: 100%;
   width: 100%;
   margin: 0;
-  background: url("../app/images/meeting.jpeg") no-repeat center;
+  background: url("../app/images/hvaccy.jpg") no-repeat center;
   background-size: 100% 100%; }
   #banner .matte-banner {
     height: 100%;
@@ -25,18 +25,31 @@
         justify-content: flex-end;
         width: 50%;
         font-family: 'Raleway', Arial, sans-serif;
-        font-size: 1.8vw;
+        font-size: 1.7vw;
         color: #ffffff;
         margin: 0; }
+        #banner .matte-banner .welcome .box-one h1 {
+          font-family: 'Raleway', Arial, sans-serif;
+          font-size: 1.7vw;
+          color: #ddd;
+          margin: 0; }
       #banner .matte-banner .welcome .box-two {
         display: flex;
         width: 50%;
         margin: 0; }
         #banner .matte-banner .welcome .box-two .typewriter {
           font-family: 'Raleway', Arial, sans-serif;
-          font-size: 1.8vw;
+          font-size: 1.7vw;
           font-weight: bold;
           color: #ddd;
+          margin: 0; }
+        #banner .matte-banner .welcome .box-two .typed-cursor {
+          font-size: 1.7vw;
+          color: #ffffff;
+          opacity: 1;
+          -webkit-animation: blink 0.7s infinite;
+          -moz-animation: blink 0.7s infinite;
+          animation: blink 0.7s infinite;
           margin: 0; }
     #banner .matte-banner .welcomeTwo {
       height: 100%;
@@ -47,28 +60,24 @@
       flex-direction: column; }
       #banner .matte-banner .welcomeTwo div {
         width: 45vw; }
+        #banner .matte-banner .welcomeTwo div h3 {
+          margin: 0;
+          padding: 20px;
+          width: 90%;
+          font-family: 'Raleway', sans-serif;
+          font-size: 1.5vw;
+          font-weight: bold;
+          color: #ddd;
+          background: #157faf; }
         #banner .matte-banner .welcomeTwo div h2 {
           margin: 0;
           padding: 20px;
           width: 90%;
           font-family: 'Raleway', sans-serif;
-          font-size: 1.7vw;
+          font-size: 2vw;
+          font-weight: bold;
           color: #ddd;
           border: 3px solid #157faf; }
-        #banner .matte-banner .welcomeTwo div h4 {
-          font-family: 'Raleway', sans-serif;
-          font-size: 2vw;
-          color: #ddd; }
-          #banner .matte-banner .welcomeTwo div h4 span {
-            color: #42b4e8; }
-
-.typed-cursor {
-  font-size: 1.8vw;
-  color: #ffffff;
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite; }
 
 @keyframes blink {
   0% {
@@ -103,10 +112,11 @@
   #about h2 {
     font-family: 'Raleway', Arial, sans-serif;
     font-size: 35px;
+    font-weight: bold;
     color: #eee;
     text-align: center;
-    padding-bottom: 50px;
-    margin: 0; }
+    margin: 0;
+    padding-bottom: 50px; }
   #about ul {
     list-style: none;
     display: flex;
@@ -174,10 +184,11 @@
     background-color: #157faf; }
   #experience div {
     height: 100%;
-    width: 25%;
+    width: 30%;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding-bottom: 50px; }
     #experience div h2 {
       font-family: 'Raleway', Arial, sans-serif;
       font-size: 25px;
@@ -188,6 +199,7 @@
     #experience div span {
       font-family: 'Raleway', Arial, sans-serif;
       font-size: 30px;
+      font-weight: bold;
       color: #157faf; }
     #experience div p {
       font-family: 'Quicksand', Arial, sans-serif;
@@ -196,6 +208,6 @@
       color: #eee;
       text-align: center;
       margin: 0;
-      padding-left: 25px; }
+      padding-left: 40px; }
 
 /*# sourceMappingURL=home.css.map */

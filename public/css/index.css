@@ -6,10 +6,11 @@ html, body {
 header {
   height: 10%;
   width: 100%;
-  background: linear-gradient(#222, transparent);
+  background: linear-gradient(#111, transparent);
   position: fixed;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  z-index: 100; }
   header .logo-container {
     display: flex;
     align-items: center;
@@ -22,8 +23,9 @@ header {
       background: url("../app/images/longslogo.svg") no-repeat center;
       background-size: contain; }
     header .logo-container h1 {
-      font-family: 'Raleway', Arial, sans-serif;
-      font-size: 15px;
+      font-family: 'Quicksand', Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
       text-transform: uppercase;
       color: #ffffff;
       margin: 0; }
@@ -63,6 +65,7 @@ header {
     color: #ffffff; }
 
 .social {
+  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +96,8 @@ header {
   background: #ea4335; }
 
 .social:hover {
-  width: 60px;
+  width: 55px;
+  background: #a8cf2d;
   transition: all .3s; }
 
 .social-footer:hover {
@@ -139,7 +143,7 @@ header {
   display: flex; }
   #contact h2 {
     font-family: 'Raleway', Arial, sans-serif;
-    font-size: 45px;
+    font-size: 2.5vw;
     color: #eeeeee;
     margin-bottom: 50px;
     text-align: center; }
@@ -150,7 +154,7 @@ header {
     padding-bottom: 50px; }
     #contact .contact-welcome h1 {
       font-family: 'Raleway', Arial, sans-serif;
-      font-size: 30px;
+      font-size: 20px;
       font-weight: 100;
       color: #ffffff;
       margin: 0; }
@@ -171,7 +175,7 @@ header {
         justify-content: center; }
         #contact .contact-secondBlock .contact-form form input {
           font-family: 'Quicksand', Arial, sans-serif;
-          font-size: 18px;
+          font-size: 1vw;
           color: #222;
           width: 400px;
           padding: 10px;
@@ -179,7 +183,7 @@ header {
           border-radius: 5px; }
         #contact .contact-secondBlock .contact-form form textarea {
           font-family: 'Quicksand', Arial, sans-serif;
-          font-size: 18px;
+          font-size: 1vw;
           color: #222;
           width: 400px;
           padding: 10px;
@@ -206,11 +210,11 @@ header {
         width: 100%; }
         #contact .contact-secondBlock .contact-info div span {
           text-transform: uppercase;
-          font-size: 25px;
+          font-size: 1.2vw;
           color: #147caa; }
         #contact .contact-secondBlock .contact-info div h3 {
           font-family: 'Didact Gothic', Arial, sans-serif;
-          font-size: 25px;
+          font-size: 1vw;
           font-weight: 100;
           color: #ffffff;
           margin: 0;

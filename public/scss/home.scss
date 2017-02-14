@@ -5,7 +5,7 @@ $brightBlue: #157faf;
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background: url('../app/images/meeting.jpeg') no-repeat center;
+	background: url('../app/images/hvaccy.jpg') no-repeat center;
 	background-size: 100% 100%;
 	.matte-banner {
 		height: 100%;
@@ -28,9 +28,15 @@ $brightBlue: #157faf;
 				justify-content: flex-end;
 				width: 50%;
 				font-family: 'Raleway', Arial, sans-serif;
-				font-size: 1.8vw;
+				font-size: 1.7vw;
 				color: #ffffff;
 				margin: 0;
+				h1 {
+					font-family: 'Raleway', Arial, sans-serif;
+					font-size: 1.7vw;
+					color: #ddd;
+					margin: 0;
+				}
 			}
 			.box-two {
 				display: flex;
@@ -38,10 +44,19 @@ $brightBlue: #157faf;
 				margin: 0;
 				.typewriter {
 					font-family: 'Raleway', Arial, sans-serif;
-					font-size: 1.8vw;
+					font-size: 1.7vw;
 					font-weight: bold;
 					color: #ddd;
 					margin: 0;
+				}
+				.typed-cursor{
+					font-size: 1.7vw;
+					color: #ffffff;
+				    opacity: 1;
+				    -webkit-animation: blink 0.7s infinite;
+				    -moz-animation: blink 0.7s infinite;
+				    animation: blink 0.7s infinite;
+				    margin: 0;
 				}
 			}
 		}
@@ -56,36 +71,39 @@ $brightBlue: #157faf;
 			flex-direction: column;
 			div {
 				width: 45vw;
+				h3 {
+					margin: 0;
+					padding: 20px;
+					width: 90%;
+					font-family: 'Raleway', sans-serif;
+					font-size: 1.5vw;
+					font-weight: bold;
+					color: #ddd;
+					background: $brightBlue;
+				}
 				h2 {
 					margin: 0;
 					padding: 20px;
 					width: 90%;
 					font-family: 'Raleway', sans-serif;
-					font-size: 1.7vw;
+					font-size: 2vw;
+					font-weight: bold;
 					color: #ddd;
 					border: 3px solid $brightBlue;
 				}
-				h4 {
-					font-family: 'Raleway', sans-serif;
-					font-size: 2vw;
-					color: #ddd;
-					span {
-						color: lighten($brightBlue, 20%);
-					}
-				}
+				// h4 {
+				// 	font-family: 'Raleway', sans-serif;
+				// 	font-size: 2vw;
+				// 	color: #ddd;
+				// 	span {
+				// 		color: lighten($brightBlue, 20%);
+				// 	}
+				// }
 			}
 		}
 	}
 }
 
-.typed-cursor{
-	font-size: 1.8vw;
-	color: #ffffff;
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
@@ -114,10 +132,11 @@ $brightBlue: #157faf;
 	h2 {
 		font-family: 'Raleway', Arial, sans-serif;
 		font-size: 35px;
+		font-weight: bold;
 		color: #eee;
 		text-align: center;
-		padding-bottom: 50px;
 		margin: 0;
+		padding-bottom: 50px;
 	}
 	ul {
 		list-style: none;
@@ -197,10 +216,11 @@ $brightBlue: #157faf;
 	}
 	div {
 		height: 100%;
-		width: 25%;
+		width: 30%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		padding-bottom: 50px;
 		h2 {
 			font-family: 'Raleway', Arial, sans-serif;
 			font-size: 25px;
@@ -212,6 +232,7 @@ $brightBlue: #157faf;
 		span {
 			font-family: 'Raleway', Arial, sans-serif;
 			font-size: 30px;
+			font-weight: bold;
 			color: $brightBlue;
 		}
 		p {
@@ -221,7 +242,7 @@ $brightBlue: #157faf;
 			color: #eee;
 			text-align: center;
 			margin: 0;
-			padding-left: 25px;
+			padding-left: 40px;
 		}
 	}
 }

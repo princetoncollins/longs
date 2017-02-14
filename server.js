@@ -2,7 +2,7 @@
 var express = require('express');
 var router = express.Router()
 var app = express();
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 var passport = require('passport');
 var path = require('path');
 var cookieParser = require('cookie-parser');
@@ -13,7 +13,7 @@ var port = 9001;
 var cors = require('cors');
 var fs = require('fs');
 var router = express.Router();
-var mongojs = require('mongojs');
+// var mongojs = require('mongojs');
 var http = require('http');
 var favicon = require('serve-favicon');
 var dotenv = require('dotenv');
@@ -22,13 +22,13 @@ var sendgrid = require('sendgrid')(process.env.SENDGRID_USER, process.env.SENDGR
 
 var LocalStrategy = require('passport-local').Strategy;
 
-var configDB = require('./db/database.js'); 
+// var configDB = require('./db/database.js'); 
 
-mongoose.connect(configDB.url);
-mongoose.Promise = global.Promise;
-mongoose.connection.once('open', function() {
-	console.log('Connected to the database at:', configDB.url);
-});
+// mongoose.connect(configDB.url);
+// mongoose.Promise = global.Promise;
+// mongoose.connection.once('open', function() {
+// 	console.log('Connected to the database at:', configDB.url);
+// });
 
 // var User = require('./public/database/models/user.js');
  
